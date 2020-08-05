@@ -15,7 +15,7 @@
         pgrole: 'grocy'
         intport: '80'
         extport: '9283'
-        image: 'linuxserver/docker-grocy'
+        image: 'grocy/grocy'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
